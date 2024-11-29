@@ -1,4 +1,5 @@
 SnapNourish: A Food and Nutrition Recognition App
+
 Submitted to Dr. Cherdsak Kingkan
 AT82.08: Computer Vision August 2024
 
