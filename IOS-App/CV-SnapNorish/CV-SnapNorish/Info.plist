@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- App Identification -->
+    <key>CFBundleName</key>
+    <string>$(PRODUCT_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.yourcompany.snapnourish</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+
+    <!-- Permissions for Camera and Photo Library -->
+    <key>NSCameraUsageDescription</key>
+    <string>We need access to your camera</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photo library</string>
+
+    <!-- URL Types (Optional) -->
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>com.DSAI-CV.snapnourish</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>snapnourish</string>
+            </array>
+        </dict>
+    </array>
+</dict>
+</plist>
